@@ -209,7 +209,7 @@ class App extends Component {
     const handleSubmit = (event) => {
       event.preventDefault()
 
-      fetch('http://localhost:3000/parse', {
+      fetch('https://glass-seeds.herokuapp.com/parse', {
         method: 'post',
         headers: {
           'Accept': 'application/json',
